@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: yellowgreen;
+}
+.wrapper{
+    width: 400px;
+    border-radius: 5px;
+    padding: 30px;
+    background: gray;
+}
+.wrapper h3{
+    text-align: center;
+    color: blue;
+}
+.wrapper textarea{
+    width: 100px;
+    height: 59px;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    resize: none;
+    max-height: 330px;
+}
+textarea::-webkit-scrollbar{
+    width: 0px;
+}
